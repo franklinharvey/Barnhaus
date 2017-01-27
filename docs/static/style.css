@@ -12,13 +12,16 @@ body {
 
 .ugh {
   font-size: 320px;
+  line-height: 220px;
   word-break: break-all;
+  margin-bottom: 80px;
 }
 
 h1,h2,h3,h4,h5,h6 {
   margin-bottom: 16px;
 }
 p {font-size: 16px;}
+
 .margin {
   margin-top: 16px;
   margin-bottom: 16px;
@@ -45,5 +48,9 @@ p {font-size: 16px;}
   color: #fff;
 }
 .btn {
-
+  border-radius: 0px;
+}
+#email {
+  margin-right: auto!important;
+  margin-left: auto!important;
 }
