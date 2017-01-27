@@ -1,12 +1,12 @@
 (function() {
     // Initialize Firebase
-	var config = {
-		apiKey: "AIzaSyDRgrapo6aaWk4_rgwDfqEwFj7KtR8GOVk",
-	    authDomain: "personal-site-1e6e3.firebaseapp.com",
-	    databaseURL: "https://personal-site-1e6e3.firebaseio.com",
-	    storageBucket: "personal-site-1e6e3.appspot.com",
-	    messagingSenderId: "1063535386214"
-  	};
+		var config = {
+	    apiKey: "AIzaSyBbAS6KCerk3PJlzmxnYitajzij4cZ9CZU",
+	    authDomain: "barnhouse-78075.firebaseapp.com",
+	    databaseURL: "https://barnhouse-78075.firebaseio.com",
+	    storageBucket: "barnhouse-78075.appspot.com",
+	    messagingSenderId: "727310305344"
+	  };
 	firebase.initializeApp(config);
 
 	const txtEmail = document.getElementById('txtEmail');
