@@ -31,14 +31,12 @@ var config = {
 			alert("Please enter an email address");
 			return;
 		}
-		console.log("HWERE");
 		saveUser(email,firstName,lastName);
 		clearField(txtEmail,txtFirstName,txtLastName);
 	});
 
 	function saveUser(email,firstName,lastName) {
 		const entry = firstName+lastName;
-		console.log("HERE");
 		firebase.database().ref("EmailList/" + entry).set({
 			FirstName : firstName,
 			LastName : lastName,

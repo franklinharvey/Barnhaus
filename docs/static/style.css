@@ -3,7 +3,6 @@ body {
   line-height: 1.8;
   color: #f5f6f7;
   background-color: #F19F4D;
-  word-wrap: break-word;
 }
 
 .container-fluid {
@@ -12,6 +11,7 @@ body {
 
 .brand {
   font-size: 200px;
+  word-wrap: break-word;
 }
 
 h1,h2,h3,h4,h5,h6 {
