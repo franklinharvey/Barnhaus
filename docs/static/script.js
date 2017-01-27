@@ -13,7 +13,6 @@ var config = {
 	const txtFirstName = document.getElementById('txtFirstName');
 	const txtLastName = document.getElementById('txtLastName');
 	const btnSignUp = document.getElementById('btnSignUp');
-	alert("HELP");
 
 	btnSignUp.addEventListener('click', e => {
 		const email = txtEmail.value;
