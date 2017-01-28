@@ -3,9 +3,9 @@ body {
   font-family: 'Oswald', sans-serif;
   line-height: 1.8;
   color: #f5f6f7;
-  background: #ee0979; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #ee0979 , #ff6a00); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #ee0979 , #ff6a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ECE9E6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .container-fluid {
@@ -14,9 +14,11 @@ body {
 
 .ugh {
   font-size: 320px;
-  line-height: 220px;
+  line-height: 290px;
   word-break: break-all;
   margin-bottom: 80px;
+  color: #C0C0C0;
+  position: absolute;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -53,6 +55,9 @@ p {font-size: 16px;}
   border-radius: 0px;
 }
 #email {
-  margin-right: auto!important;
-  margin-left: auto!important;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  position: fixed;
 }
