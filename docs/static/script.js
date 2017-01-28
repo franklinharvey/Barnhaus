@@ -41,7 +41,7 @@ var config = {
 			FirstName : firstName,
 			LastName : lastName,
 			Email : email,
-			DateAdded : Firebase.ServerValue.TIMESTAMP.toString()
+			DateAdded : firebase.ServerValue.TIMESTAMP.toString()
 		});
 	};
 	function clearField(txtEmail,txtFirstName,txtLastName) {
