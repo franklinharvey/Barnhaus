@@ -36,17 +36,29 @@ var config = {
 	});
 
 	function saveUser(email,firstName,lastName) {
-		const entry = firstName+lastName;
+		const entry = guid();
 		firebase.database().ref("EmailList/" + entry).set({
 			FirstName : firstName,
 			LastName : lastName,
-			Email : email
+			Email : email,
+			DateAdded : Firebase.ServerValue.TIMESTAMP.toString()
 		});
 	};
 	function clearField(txtEmail,txtFirstName,txtLastName) {
 			txtEmail.value = "";
 			txtFirstName.value = "";
 			txtLastName.value = "";
+	};
+
+
+	function guid() {
+  	return s4() + s4() + '-' + s4() + '-' + s4() + '-' +
+    	s4() + '-' + s4() + s4() + s4();
+	};
+	function s4() {
+  	return Math.floor((1 + Math.random()) * 0x10000)
+    	.toString(16)
+    	.substring(1);
 	};
 
 }());
