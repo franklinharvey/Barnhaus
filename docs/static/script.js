@@ -37,11 +37,12 @@ var config = {
 
 	function saveUser(email,firstName,lastName) {
 		const entry = guid();
+		const eventTime = new Date();
 		firebase.database().ref("EmailList/" + entry).set({
 			FirstName : firstName,
 			LastName : lastName,
 			Email : email,
-			DateAdded : firebase.ServerValue.TIMESTAMP.toString()
+			DateAdded : eventTime.toString()
 		});
 	};
 	function clearField(txtEmail,txtFirstName,txtLastName) {
