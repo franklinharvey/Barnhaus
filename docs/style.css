@@ -2,7 +2,7 @@ body {
   font: 20px;
   font-family: 'Oswald', sans-serif;
   line-height: 1.8;
-  color: #f5f6f7;
+  color: #FFFFFF;
   background: #e90000; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #e90000 , #94002d); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #e90000 , #94002d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
