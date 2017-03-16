@@ -36,31 +36,6 @@ p {font-size: 16px;}
   margin-bottom: 16px;
 }
 
-.bg-1 {
-  background-color: #4484CE; /* Cerulean */
-  color: #ffffff;
-}
-
-.bg-2 {
-  background-color: #D9D9D9; /* Aluminium */
-  color: #2f2f2f;
-}
-
-.bg-3 {
-  background-color: #F9CF00; /* Light */
-  color: #FFF;
-}
-
-.bg-4 {
-  background-color: #2f2f2f; /* Dark Grey */
-  color: #fff;
-}
-
-.bg-5 {
-  background-color: #F19F4D; /* Tangerine */
-  color: #fff;
-}
-
 .btn {
   border-radius: 0px;
 }
