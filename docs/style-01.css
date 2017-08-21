@@ -1,74 +1,24 @@
 body {
-  font: 20px;
-  font-family: 'Oswald', sans-serif;
-  line-height: 1.8;
-  color: #FFFFFF;
-  background: #e90000; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #e90000 , #94002d); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #e90000 , #94002d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.container-fluid {
-  min-height: 100%
-}
-
-.ugh {
-  font-size: 300px;
-  line-height: 260px;
-  word-break: break-all;
-  margin-bottom: 80px;
-  color: #C0C0C0;
-  position: absolute;
-}
-
-.radius-0 {
-  border-radius: 0px;
-}
-
-h1,h2,h3,h4,h5,h6 {
-  margin-bottom: 16px;
-}
-
-p {font-size: 16px;}
-
-.margin {
-  margin-top: 16px;
-  margin-bottom: 16px;
-}
-
-.bg-1 {
-  background-color: #4484CE; /* Cerulean */
-  color: #ffffff;
-}
-
-.bg-2 {
-  background-color: #D9D9D9; /* Aluminium */
-  color: #2f2f2f;
-}
-
-.bg-3 {
-  background-color: #F9CF00; /* Light */
-  color: #FFF;
-}
-
-.bg-4 {
-  background-color: #2f2f2f; /* Dark Grey */
-  color: #fff;
-}
-
-.bg-5 {
-  background-color: #F19F4D; /* Tangerine */
-  color: #fff;
+  font-family: 'Shrikhand', cursive;
+  color: #F2F2F2;
+  height: 100%;
+  background-image: url("bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .btn {
   border-radius: 0px;
 }
 
-#email {
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
-  position: fixed;
+h1 {
+  margin-top: 10vh;
+  margin-bottom: 20px;
+}
+
+section {
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
 }
