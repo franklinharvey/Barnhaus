@@ -1,0 +1,24 @@
+body {
+  font-family: 'Shrikhand', cursive;
+  color: #F2F2F2;
+  height: 100%;
+  background-image: url("bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.btn {
+  border-radius: 0px;
+}
+
+h1 {
+  margin-top: 10vh;
+  margin-bottom: 20px;
+}
+
+section {
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+}
