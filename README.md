@@ -1,2 +1,2 @@
-# Barnhouse
-[Check it out here](https://franklinharvey.github.io/Barnhouse/)
+# Barnhaus
+[Check it out here](https://franklinharvey.github.io/Barnhaus/)
