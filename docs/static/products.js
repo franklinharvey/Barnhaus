@@ -14,6 +14,10 @@ var config = {
 
 	productRef.on('child_added', snap=> {
 		//add products
+
+		var productContainer = document.createElement('div');
+		productContainer.className = "row";
+
 	    var newProduct = document.createElement('div');
 		newProduct.id = snap.key;
 		newProduct.className = 'product col-sm-8';
@@ -47,9 +51,11 @@ var config = {
 		newProduct.appendChild(imgElement);
 		newProduct.appendChild(textDiv);
 
-		document.getElementById("products").appendChild(spacer1);
-		document.getElementById("products").appendChild(newProduct);
-		document.getElementById("products").appendChild(spacer2);
+		productContainer.appendChild(spacer1);
+		productContainer.appendChild(newProduct);
+		productContainer.appendChild(spacer2);
+
+		document.getElementById("products").appendChild(productContainer);
 	});
 
 
