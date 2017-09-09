@@ -9,6 +9,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<link href='styles/nav.css' rel='stylesheet' type='text/css'>
+	<link href='styles/login.css' rel='stylesheet' type='text/css'>
 	<link href='styles/thumbnail.css' rel='stylesheet' type='text/css'>
 	<link href='styles/index.css' rel='stylesheet' type='text/css'>
 </head>
@@ -56,9 +57,15 @@
           </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-                    <li role="presentation" class="">
-            <a href="#c" title="A">log in</a>
-          </li>
+            <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><span class="glyphicon glyphicon-log-in"></span> login</a>
+				<div class="dropdown-menu" style="padding: 10px;">
+				<form class="form-horizontal"  method="post" accept-charset="UTF-8">
+				  <input id="sp_uname" class="form-control login" type="email" name="sp_uname" placeholder="Email" />
+				  <input id="sp_pass" class="form-control login" type="password" name="sp_pass" placeholder="Password"/>
+				  <input class="btn btn-default" type="submit" name="submit" value="login" />
+				</form>
+				</div>
+			</li>
         </ul>
       </div>
     </div>
