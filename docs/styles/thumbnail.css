@@ -1,0 +1,13 @@
+.thumbnail {
+	position: relative;
+}
+
+.caption {
+	position: absolute;
+	background-color: hsla(0, 0%, 100%, 0.38);
+	bottom: 0%;
+	left: 0;
+	width: 100%;
+	font-weight: 900;
+	font-size: 3em;
+}
