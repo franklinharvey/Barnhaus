@@ -5,3 +5,8 @@ body {
 .heading {
 	padding: 40px;
 }
+
+.headline-404 h1{
+	font-size: 8em;
+	font-weight: 900;
+}
