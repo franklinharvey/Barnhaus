@@ -4,7 +4,7 @@
 
 .caption {
 	position: absolute;
-	background-color: hsla(0, 0%, 100%, 0.38);
+	background-color: hsla(0, 0%, 100%, .75);
 	bottom: 0%;
 	left: 0;
 	width: 100%;
