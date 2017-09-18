@@ -1,0 +1,13 @@
+.product {
+	background-image: url(/img/jumper.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	padding-top: 80%;
+	background-size: cover;
+}
+
+#products {
+	padding-top: 4em;
+	padding-bottom: 4em;
+}

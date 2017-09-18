@@ -10,7 +10,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<link href='/styles/nav.css' rel='stylesheet' type='text/css'>
 	<link href='/styles/login.css' rel='stylesheet' type='text/css'>
-	<link href='/styles/thumbnail.css' rel='stylesheet' type='text/css'>
+	<link href='/styles/product.css' rel='stylesheet' type='text/css'>
 	<link href='/styles/index.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -21,7 +21,7 @@
   		<div class="row">
   		<span class="col-xs-4"></span>
   			<div class="col-xs-4">
-				<a href="/"><img src="/img/logo_web.png" class="img-responsive" <width="400px"></a>
+				<a href="/"><img src="/img/logo_web.png" class="img-responsive" width="400px"></a>
 			</div>
 		<span class="col-xs-4"></span>
 		</div>
@@ -42,7 +42,7 @@
       </div>
       <div class="collapse navbar-collapse" id="navbar-items">
         <ul class="nav navbar-nav">
-          <li role="presentation" class="">
+          <li role="presentation" class="active">
             <a href="/clothing" title="clothing">clothing</a>
           </li>
           <li role="presentation" class="">
@@ -73,27 +73,94 @@
   </nav>
   
 
-  <section id="square-buttons">
-  	<div class="container">
+  <section id="products">
+  	<!-- Non-xs render -->
+  	<div class="container hidden-xs">
+  		<div class="row">
+  			<div class="col-sm-4">
+  				<div class="product"></div>
+  				<h2 class="procuct-name text-center">Name</h2>
+				<h6 class="product-price text-center">Price</h6>
+  			</div>
+  			<div class="col-sm-4">
+  				<div class="product"></div>
+  				<h2 class="procuct-name text-center">Name</h2>
+				<h6 class="product-price text-center">Price</h6>
+  			</div>
+  			<div class="col-sm-4">
+  				<div class="product"></div>
+  				<h2 class="procuct-name text-center">Name</h2>
+				<h6 class="product-price text-center">Price</h6>
+  			</div>
+  			<div class="col-sm-4">
+  				<div class="product"></div>
+  				<h2 class="procuct-name text-center">Name</h2>
+				<h6 class="product-price text-center">Price</h6>
+  			</div>
+  			<div class="col-sm-4">
+  				<div class="product"></div>
+  				<h2 class="procuct-name text-center">Name</h2>
+				<h6 class="product-price text-center">Price</h6>
+  			</div>
+  			<div class="col-sm-4">
+  				<div class="product"></div>
+  				<h2 class="procuct-name text-center">Name</h2>
+				<h6 class="product-price text-center">Price</h6>
+  			</div>
+  		</div>
+	</div>
+	<!-- XS Render -->
+	<div class="container visible-xs">
 		<div class="row">
-			<span class="col-md-2"></span>
-	  		<div class="col-md-8">
-		    	<div class="thumbnail text-center">
-		    		<a href="#">
-		        	<img src="img/White.png" alt="" class="img-responsive">
-		        	<div class="caption">
-		            	  <h1>September 2017: <small>Dope Ass Shirts</small></h1>
-		        	</div>
-		        	</a>
-		    	</div>
+			<span class="col-xs-2"></span>
+			<div class="col-xs-8">
+				<div class="product"></div>
+  				<h2 class="procuct-name text-center">Name</h2>
+				<h6 class="product-price text-center">Price</h6>
 			</div>
-			<span class="col-md-2"></span>
+			<span class="col-xs-2"></span>
+		</div>
+		<div class="row">
+			<span class="col-xs-2"></span>
+			<div class="col-xs-8">
+				<div class="product"></div>
+  				<h2 class="procuct-name text-center">Name</h2>
+				<h6 class="product-price text-center">Price</h6>
+			</div>
+			<span class="col-xs-2"></span>
+		</div>
+		<div class="row">
+			<span class="col-xs-2"></span>
+			<div class="col-xs-8">
+				<div class="product"></div>
+  				<h2 class="procuct-name text-center">Name</h2>
+				<h6 class="product-price text-center">Price</h6>
+			</div>
+			<span class="col-xs-2"></span>
+		</div>
+		<div class="row">
+			<span class="col-xs-2"></span>
+			<div class="col-xs-8">
+				<div class="product"></div>
+  				<h2 class="procuct-name text-center">Name</h2>
+				<h6 class="product-price text-center">Price</h6>
+			</div>
+			<span class="col-xs-2"></span>
+		</div>
+		<div class="row">
+			<span class="col-xs-2"></span>
+			<div class="col-xs-8">
+				<div class="product"></div>
+  				<h2 class="procuct-name text-center">Name</h2>
+				<h6 class="product-price text-center">Price</h6>
+			</div>
+			<span class="col-xs-2"></span>
 		</div>
 	</div>
   </section>
 
 </div>
 
-<script src="js/nav.js"></script>
+<script src="/js/nav.js"></script>
 </body>
 </html>

@@ -1,0 +1,38 @@
+.rect-box1 {
+	position: relative;
+	background-image: url(/img/boxes/shirts_un.png);
+	background-position: 80px;
+	background-size: cover;
+	padding-top: 20%;
+	margin-bottom: 2px;
+}
+
+.rect-box2 {
+	position: relative;
+	background-image: url(/img/boxes/crew.png);
+	background-position: -60px;
+	background-size: cover;
+	padding-top: 20%;
+	margin-bottom: 2px;
+}
+
+.rect-box3 {
+	position: relative;
+	background-image: url(/img/boxes/hats_un.png);
+	background-position: -200px;
+	background-size: cover;
+	padding-top: 20%;
+	margin-bottom: 2px;
+}
+
+.caption {
+	position: absolute;
+	color: white;
+	width: 100%;
+	bottom: 20%;
+}
+
+#track-nav {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
