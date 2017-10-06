@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href='/styles/nav.css' rel='stylesheet' type='text/css'>
 	<link href='/styles/login.css' rel='stylesheet' type='text/css'>
 	<link href='/styles/rect-box.css' rel='stylesheet' type='text/css'>
@@ -16,104 +16,47 @@
 <body>
 <div class="container">
 
-  <heading class="hidden-xs">
-  	<div class="container heading">
-  		<div class="row">
-  		<span class="col-xs-4"></span>
-  			<div class="col-xs-4">
-				<a href="/"><img src="/img/logo_web.png" class="img-responsive" width="400px"></a>
-			</div>
-		<span class="col-xs-4"></span>
-		</div>
-  	</div>
-  	<hr>
-  </heading>
+  <div id="nav-placeholder"></div>
 
-  <nav id="nav" class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header visible-xs">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-      	</button>
-        <a class="navbar-brand" href="/" title="Brand">barnhaus</a>
-      </div>
-      <div class="collapse navbar-collapse" id="navbar-items">
-        <ul class="nav navbar-nav">
-          <li role="presentation" class="active">
-            <a href="/clothing" title="clothing">clothing</a>
-          </li>
-          <li role="presentation" class="">
-            <a href="/bands" title="bands">bands</a>
-          </li>
-          <li role="presentation" class="">
-            <a href="/about" title="about">about</a>
-          </li>
-          <li>
-            <a href="#">
-              <span class="glyphicon glyphicon-search"></span>
-            </a>
-          </li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><span class="glyphicon glyphicon-log-in"></span> login</a>
-				<div class="dropdown-menu" style="padding: 10px;">
-				<form class="form-horizontal"  method="post" accept-charset="UTF-8">
-				  <input id="sp_uname" class="form-control login" type="email" name="sp_uname" placeholder="Email" />
-				  <input id="sp_pass" class="form-control login" type="password" name="sp_pass" placeholder="Password"/>
-				  <input class="btn btn-default" type="submit" name="submit" value="login" />
-				</form>
+  <section id="track-nav" class="row">
+		<h1 class="text-center visible-xs">Clothing</h1>
+		<div class="col-sm-6 rect-row">
+    	<a href="#">
+    		<div class="rect-box1">
+					<h2 class="text-center caption"><mark>t-shirts</mark></h1>
+    		</div>
+    	</a>
+		</div>
+		<div class="col-sm-6 rect-row">
+    	<a href="#">
+    		<div class="rect-box2">
+				<h2 class="text-center caption"><mark>sweatshirts</mark></h1>
+    		</div>
+    	</a>
+		</div>
+		<div class="col-sm-6 rect-row">
+    	<a href="#">
+    		<div class="rect-box3">
+				<h2 class="text-center caption"><mark>hats</mark></h1>
+    		</div>
+    	</a>
+		</div>
+		<div class="col-sm-6 rect-row">
+			<a href="#">
+				<div class="rect-box4">
+				<h2 class="text-center caption"><mark>all</mark></h1>
 				</div>
-			</li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  
-
-  <section id="track-nav">
-  	<div class="container">
-  		<h1 class="text-center visible-xs">Clothing</h1>
-		<div class="row">
-			<span class="col-sm-2 xs-hidden"></span>
-	  		<div class="col-sm-8 col-xs-12 rect-row">
-		    	<a href="#">
-		    		<div class="rect-box1">
-						<h2 class="text-center caption">t-shirts</h1>
-		    		</div>
-		    	</a>
-			</div>
-			<span class="col-sm-2 xs-hidden"></span>
+			</a>
 		</div>
-		<div class="row">
-			<span class="col-sm-2 xs-hidden"></span>
-	  		<div class="col-sm-8 col-xs-12">
-		    	<a href="#">
-		    		<div class="rect-box2">
-						<h2 class="text-center caption">sweatshirts</h1>
-		    		</div>
-		    	</a>
-			</div>
-			<span class="col-sm-2 xs-hidden"></span>
-		</div>
-		<div class="row">
-			<span class="col-sm-2 xs-hidden"></span>
-	  		<div class="col-sm-8 col-xs-12">
-		    	<a href="#">
-		    		<div class="rect-box3">
-		    			<h2 class="text-center caption">hats</h1>
-		    		</div>
-		    	</a>
-			</div>
-			<span class="col-sm-2 xs-hidden"></span>
-		</div>
-	</div>
   </section>
 
 </div>
 
+<script>
+	$(function(){
+	  $("#nav-placeholder").load("/nav.html");
+	});
+</script>
 <script src="/js/nav.js"></script>
 </body>
 </html>

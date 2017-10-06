@@ -1,35 +1,64 @@
 .rect-box1 {
+	min-height: 200px;
 	position: relative;
-	background-image: url(/img/boxes/shirts_un.png);
-	background-position: 80px;
+	background-image: url(/img/boxes/shirtsnew.jpg);
+	background-position: center;
 	background-size: cover;
-	padding-top: 20%;
-	margin-bottom: 2px;
+	-webkit-transition:background-position 1s ease;
+	margin: 0px 1px 2px 1px;
+}
+
+.rect-box1:hover {
+	background-position: top;
 }
 
 .rect-box2 {
+	min-height: 200px;
 	position: relative;
-	background-image: url(/img/boxes/crew.png);
-	background-position: -60px;
+	background-image: url(/img/boxes/crew2.png);
+	background-position: center;
 	background-size: cover;
-	padding-top: 20%;
-	margin-bottom: 2px;
+	-webkit-transition:background-position 1s ease;
+	margin: 0px 1px 2px 1px;
+}
+
+.rect-box2:hover {
+	background-position: top;
 }
 
 .rect-box3 {
+	min-height: 200px;
 	position: relative;
-	background-image: url(/img/boxes/hats_un.png);
-	background-position: -200px;
+	background-image: url(/img/boxes/hatsnew.jpeg);
+	background-position: center;
 	background-size: cover;
-	padding-top: 20%;
-	margin-bottom: 2px;
+	-webkit-transition:background-position 1s ease;
+	margin: 0px 1px 2px 1px;
+}
+
+.rect-box3:hover {
+	background-position: bottom;
+}
+
+.rect-box4 {
+	min-height: 200px;
+	position: relative;
+	background-image: url(/img/boxes/all.png);
+	background-position: center;
+	background-size: cover;
+	-webkit-transition:background-position 1s ease;
+	margin: 0px 1px 2px 1px;
+}
+
+.rect-box4:hover {
+	background-position: bottom;
 }
 
 .caption {
 	position: absolute;
 	color: white;
 	width: 100%;
-	bottom: 20%;
+	bottom: 30%;
 }
 
 #track-nav {

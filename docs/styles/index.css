@@ -1,5 +1,5 @@
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .heading {
@@ -22,4 +22,9 @@ body {
 	font-size: 16em;
 	font-weight: 900;
 	word-wrap: break-word;
+}
+
+mark {
+    background-color: lightgrey;
+    color: white;
 }
