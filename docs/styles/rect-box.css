@@ -9,7 +9,7 @@
 }
 
 .rect-box1:hover {
-	background-position: top;
+	background-position: bottom;
 }
 
 .rect-box2 {
@@ -23,7 +23,7 @@
 }
 
 .rect-box2:hover {
-	background-position: top;
+	background-position: bottom;
 }
 
 .rect-box3 {
@@ -37,7 +37,7 @@
 }
 
 .rect-box3:hover {
-	background-position: bottom;
+	background-position: top;
 }
 
 .rect-box4 {
@@ -51,7 +51,7 @@
 }
 
 .rect-box4:hover {
-	background-position: bottom;
+	background-position: top;
 }
 
 .caption {

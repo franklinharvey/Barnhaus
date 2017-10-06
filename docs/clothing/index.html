@@ -16,7 +16,61 @@
 <body>
 <div class="container">
 
-  <div id="nav-placeholder"></div>
+	<heading class="hidden-xs">
+	  <div class="heading">
+	    <div class="row">
+	    <span class="col-xs-4"></span>
+	      <div class="col-xs-4">
+	      <a href="/"><img src="/img/logo_web.png" class="img-responsive" width="400px"></a>
+	    </div>
+	  <span class="col-xs-4"></span>
+	  </div>
+	  </div>
+	  <hr>
+	</heading>
+
+	<nav id="nav" class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <div class="navbar-header visible-xs">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="/" title="Brand">barnhaus</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="navbar-items">
+	      <ul class="nav navbar-nav">
+	        <li role="presentation" class="" id="clothing-tab">
+	          <a href="/clothing" title="clothing">clothing</a>
+	        </li>
+	        <li role="presentation" class="" id="bands-tab">
+	          <a href="/bands" title="bands">bands</a>
+	        </li>
+	        <li role="presentation" class="" id="about-tab">
+	          <a href="/about" title="about">about</a>
+	        </li>
+	        <li>
+	          <a href="#">
+	            <span class="glyphicon glyphicon-search"></span>
+	          </a>
+	        </li>
+	      </ul>
+	      <ul class="nav navbar-nav navbar-right">
+	          <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><span class="glyphicon glyphicon-log-in"></span> login</a>
+	      <div class="dropdown-menu" style="padding: 10px;">
+	      <form class="form-horizontal"  method="post" accept-charset="UTF-8">
+	        <input id="sp_uname" class="form-control login" type="email" name="sp_uname" placeholder="Email" />
+	        <input id="sp_pass" class="form-control login" type="password" name="sp_pass" placeholder="Password"/>
+	        <input class="btn btn-default" type="submit" name="submit" value="login" />
+	      </form>
+	      </div>
+	    </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
 
   <section id="track-nav" class="row">
 		<h1 class="text-center visible-xs">Clothing</h1>
@@ -52,14 +106,9 @@
 
 </div>
 
-<script type="text/javascript">
-	$(document).ready(function() {
-		$("#nav-placeholder").load("/nav.html");
-		$.getScript("/js/nav.js", function() {
-			console.log("loaded nav js");
-		});
-		$("#clothing-tab").className = "active";
-	});
+<script src="/js/nav.js"></script>
+<script>
+	$("#clothing-tab").addClass('active');
 </script>
 </body>
 </html>
