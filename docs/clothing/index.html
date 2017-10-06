@@ -21,28 +21,28 @@
   <section id="track-nav" class="row">
 		<h1 class="text-center visible-xs">Clothing</h1>
 		<div class="col-sm-6 rect-row">
-    	<a href="#">
+    	<a href="shirts/">
     		<div class="rect-box1">
 					<h2 class="text-center caption"><mark>t-shirts</mark></h1>
     		</div>
     	</a>
 		</div>
 		<div class="col-sm-6 rect-row">
-    	<a href="#">
+    	<a href="sweatshirts/">
     		<div class="rect-box2">
 				<h2 class="text-center caption"><mark>sweatshirts</mark></h1>
     		</div>
     	</a>
 		</div>
 		<div class="col-sm-6 rect-row">
-    	<a href="#">
+    	<a href="hats/">
     		<div class="rect-box3">
 				<h2 class="text-center caption"><mark>hats</mark></h1>
     		</div>
     	</a>
 		</div>
 		<div class="col-sm-6 rect-row">
-			<a href="#">
+			<a href="all/">
 				<div class="rect-box4">
 				<h2 class="text-center caption"><mark>all</mark></h1>
 				</div>
@@ -52,11 +52,14 @@
 
 </div>
 
-<script>
-	$(function(){
-	  $("#nav-placeholder").load("/nav.html");
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#nav-placeholder").load("/nav.html");
+		$.getScript("/js/nav.js", function() {
+			console.log("loaded nav js");
+		});
+		$("#clothing-tab").className = "active";
 	});
 </script>
-<script src="/js/nav.js"></script>
 </body>
 </html>
