@@ -1,10 +1,54 @@
+#product0 {
+	background-image: url("https://firebasestorage.googleapis.com/v0/b/barnhouse-78075.appspot.com/o/clothing%2Fmain-expanded-single_mockup_Wrinkle-Front_Black.png?alt=media&token=0fce9376-c521-48f2-9d53-f943cd70e5ea");
+}
+
+#product1 {
+	background-image: url("https://firebasestorage.googleapis.com/v0/b/barnhouse-78075.appspot.com/o/clothing%2Fbearblbg_mockup_Wrinkle-Front_Black.png?alt=media&token=3ca45488-a850-4ff8-bfbe-b858f0e6cfaa");
+}
+
+#product2 {
+	background-image: url("https://firebasestorage.googleapis.com/v0/b/barnhouse-78075.appspot.com/o/clothing%2Feyes_mockup_Wrinkle-Front_Ash.png?alt=media&token=04d69459-88d9-44da-92d9-469a86287492");
+}
+
+#product3 {
+	background-image: url("https://firebasestorage.googleapis.com/v0/b/barnhouse-78075.appspot.com/o/clothing%2Fblackhatnobgbig_mockup_Front_Char.-Gray.png?alt=media&token=0025f322-ed1b-4f0b-9f9b-8c592859f9f1");
+}
+
+#product4 {
+	background-image: url("https://firebasestorage.googleapis.com/v0/b/barnhouse-78075.appspot.com/o/clothing%2Fmain-expanded-single_mockup_Flat-Front_Black.png?alt=media&token=8814a57c-2f5d-4186-958a-7be6cbd360da");
+}
+
+#product5 {
+	background-image: url("https://firebasestorage.googleapis.com/v0/b/barnhouse-78075.appspot.com/o/clothing%2Fmain-expanded-single-purple_mockup_Flat-Front_White.png?alt=media&token=737c19ca-29db-4087-91f6-32e152e02631");
+}
+
+#product6 {
+	background-image: url("https://firebasestorage.googleapis.com/v0/b/barnhouse-78075.appspot.com/o/clothing%2Fmain-expanded-single_mockup_Flat-Front_Black%20sweat.png?alt=media&token=14f04b30-cd84-4ab2-b393-051dab465eb8");
+}
+
+#product7 {
+	background-image: url("https://firebasestorage.googleapis.com/v0/b/barnhouse-78075.appspot.com/o/clothing%2Fmain_mockup_Flat-Front_Black.png?alt=media&token=79979487-832c-46e9-8365-efbd8f875204");
+}
+
 .product {
-	background-image: url(/img/jumper.png);
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	max-width: 100%;
-	padding-top: 80%;
+	height: 360px;
+	background-position: center;
 	background-size: cover;
+	-webkit-transition:transform .5s ease;
+}
+
+.product:hover {
+	transform: scale(1.1);
+}
+
+.product-info {
+	position: relative;
+	bottom: 80px;
+	height: 100px;
+}
+
+.product-info:hover, a:hover {
+	text-decoration: none;
 }
 
 #products {

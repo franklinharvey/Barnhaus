@@ -25,6 +25,7 @@ body {
 }
 
 mark {
-  background-color: lightgrey;
+  background-color: darkgrey;
   color: white;
+	line-height: 40px;
 }
