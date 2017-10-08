@@ -14,18 +14,8 @@ $(function() {
   itemType = pathArray[2];
   console.log(itemType);
 
-  if (itemType == "shirts") {
-    database.orderByChild("Type").equalTo("shirt").on("child_added", function(snapshot) {
-      renderElements(snapshot, productsList);
-    });
-  }
-  else if (itemType == "sweatshirts") {
-    database.orderByChild("Type").equalTo("sweatshirt").on("child_added", function(snapshot) {
-      renderElements(snapshot, productsList);
-    });
-  }
-  else if (itemType == "hats") {
-    database.orderByChild("Type").equalTo("hat").on("child_added", function(snapshot) {
+  if (itemType != "all") {
+    database.orderByChild("Type").equalTo(itemType).on("child_added", function(snapshot) {
       renderElements(snapshot, productsList);
     });
   }
