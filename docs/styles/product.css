@@ -43,8 +43,9 @@
 
 .product-info {
 	position: relative;
-	bottom: 80px;
+	bottom: 0px;
 	height: 100px;
+	color: black;
 }
 
 .product-info:hover, a:hover {
