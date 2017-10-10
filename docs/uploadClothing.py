@@ -19,12 +19,14 @@ while userInput!="quit":
     name = input("Name?")
     price = input("Price?")
     productType = input("Type?")
-    imageURL = input("URL?")
+    imageURL = input("Image URL?")
+    buyURL = input("Buy URL?")
     ref.push({
         'Name': name,
         'Price': price,
         'Type': productType,
-        'Image': imageURL
+        'Image': imageURL,
+        'buyURL': buyURL
     })
     userInput = input("Quit?")
 
