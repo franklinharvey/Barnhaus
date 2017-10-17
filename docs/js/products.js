@@ -43,11 +43,11 @@ $(function() {
 
     productName = document.createElement("h3");
     productName.className = "product-name text-center";
-    productName.innerHTML = snapshot.val().Name;
+    productName.innerHTML = snapshot.val().Name.toLowerCase();
 
     productPrice = document.createElement("h4");
     productPrice.className = "product-price text-center";
-    productPrice.innerHTML = snapshot.val().Price;
+    productPrice.innerHTML = snapshot.val().Price.toLowerCase();
 
     productInfoDiv.append(productName);
     productInfoDiv.append(productPrice);
